@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Graclyxz all rights reserved"
+
+[[mods]]
+modId="magic_and_spells"
+version="0.1.6"
+displayName="Magic and Spells"
+displayURL="https://github.com/XavierlVill2525"
+logoFile="logo.png"
+credits="Thanks for using my mod"
+authors="Graclyxz"
+description="This mod introduces powerful spells and magic items that will let you master the elements and unleash chaos on your enemies. Although it currently features only two unique spells, more secrets and enchantments will be available in future updates."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.magic_and_spells]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

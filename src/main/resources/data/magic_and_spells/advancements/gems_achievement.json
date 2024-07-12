@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_and_spells:fire_gem"
+    },
+    "title": {
+      "translate": "advancements.gems_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.gems_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gems_achievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:fire_gem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 16
+  },
+  "parent": "magic_and_spells:gemachievement"
+}

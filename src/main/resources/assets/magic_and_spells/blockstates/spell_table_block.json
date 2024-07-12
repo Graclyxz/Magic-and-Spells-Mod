@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magic_and_spells:block/spell_table_block"
+    },
+    "facing=east": {
+      "model": "magic_and_spells:block/spell_table_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magic_and_spells:block/spell_table_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magic_and_spells:block/spell_table_block",
+      "y": 270
+    }
+  }
+}

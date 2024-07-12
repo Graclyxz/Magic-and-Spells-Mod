@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magic_and_spells:block/bajo",
+    "up": "magic_and_spells:block/superior_on_1",
+    "north": "magic_and_spells:block/frontal_on_1",
+    "east": "magic_and_spells:block/laterales",
+    "south": "magic_and_spells:block/laterales",
+    "west": "magic_and_spells:block/laterales",
+    "particle": "magic_and_spells:block/superior_on_1"
+  },
+  "render_type": "solid"
+}

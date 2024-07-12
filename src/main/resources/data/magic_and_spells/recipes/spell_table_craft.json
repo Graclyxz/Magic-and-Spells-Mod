@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spells",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "c": {
+      "item": "minecraft:soul_campfire"
+    }
+  },
+  "result": {
+    "item": "magic_and_spells:spell_table_block",
+    "count": 1
+  }
+}

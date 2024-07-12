@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "advancements.achievement_mod.title"
+    },
+    "description": {
+      "translate": "advancements.achievement_mod.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "achievement_mod_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

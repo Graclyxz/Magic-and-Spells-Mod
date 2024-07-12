@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_and_spells:rare_orb"
+    },
+    "title": {
+      "translate": "advancements.rareorbachievement.title"
+    },
+    "description": {
+      "translate": "advancements.rareorbachievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rareorbachievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:rare_orb"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 16
+  },
+  "parent": "magic_and_spells:achievement_mod"
+}

@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "advancements.gemachievement.title"
+    },
+    "description": {
+      "translate": "advancements.gemachievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gemachievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:fire_gem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "gemachievement_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:blue_gem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "gemachievement_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:light_gem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 27
+  },
+  "parent": "magic_and_spells:achievement_mod"
+}

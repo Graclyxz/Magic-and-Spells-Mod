@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_and_spells:fire_ball_spell"
+    },
+    "title": {
+      "translate": "advancements.fireball_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.fireball_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fireball_achievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:fire_ball_spell"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 55
+  },
+  "parent": "magic_and_spells:soulfurnace_achievement"
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_and_spells:arcane_spell"
+    },
+    "title": {
+      "translate": "advancements.light_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.light_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "light_achievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magic_and_spells:arcane_spell"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 55
+  },
+  "parent": "magic_and_spells:soulfurnace_achievement"
+}
