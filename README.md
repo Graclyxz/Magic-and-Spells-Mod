@@ -64,7 +64,7 @@
 <ul>
 <li style="text-align: left; color: #e67e23;"><span style="text-decoration: underline;"><span style="color: #e67e23; text-decoration: underline;">More to come....</span></span></li>
 </ul>
-<p><a href="https://www.buymeacoffee.com/Graclyxz" rel="nofollow"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&amp;emoji=&amp;slug=Graclyxz&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Comic&amp;outline_colour=000000&amp;coffee_colour=FFDD00"></a></p>
+
 <hr>
 <p style="text-align: right;"><em><span style="color: #b96ad9;"><strong>es_us, es_mx, es_es</strong></span></em></p>
 <hr>
@@ -128,4 +128,5 @@
 <ul>
 <li style="color: #e67e23;"><span style="text-decoration: underline;"><span style="color: #e67e23; text-decoration: underline;">Proximamente. m&aacute;s..</span></span></li>
 </ul>
-<p><a href="https://www.buymeacoffee.com/Graclyxz" rel="nofollow"><img></a><a href="https://www.buymeacoffee.com/Graclyxz" rel="nofollow"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&amp;emoji=&amp;slug=Graclyxz&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Comic&amp;outline_colour=000000&amp;coffee_colour=FFDD00"></a><a href="https://www.buymeacoffee.com/Graclyxz" rel="nofollow"><img></a></p>
+
+
